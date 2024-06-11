@@ -121,6 +121,9 @@ ESPHome is a system to control your microcontrollers by simple yet powerful conf
 
 .. _devices:
 
+Components
+==========
+
 Supported Microcontrollers
 --------------------------
 
