@@ -297,6 +297,10 @@ body {
   font-family: "Instrument Sans", system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
   line-height: 1.5;
   letter-spacing: 0.01rem;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 97.5;
+  font-feature-settings: "ss01" 1, "ss03" 1, "ss04" 1, "ss07" 1, "ss08" 1, "ss09" 1, "liga";
 }
 
 div.body p, div.body dd, div.body li {
@@ -316,8 +320,8 @@ img.logo {
   .pagefind-modular-input-wrapper {
     scale: 90%;
   }
-  .logo {
-    scale: 60%;
+  .sphinxsidebar .logo {
+    width: 66.66%;
   }
 }
 
